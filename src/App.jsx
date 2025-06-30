@@ -4,6 +4,8 @@ import Aboutme from "./components/aboutme";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Projects from "./components/projects";
+
 export default function App() {
   return (
     <div className="min-h-screen">
@@ -11,6 +13,7 @@ export default function App() {
       <Hero />
       <Aboutme />
       <Skills />
+      <Projects />
       <Contact />
       <Footer />
     </div>
