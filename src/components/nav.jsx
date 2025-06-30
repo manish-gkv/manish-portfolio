@@ -4,11 +4,11 @@ export default function Nav() {
             <div className="text-xl font-bold">Manish</div>
             <div className="hidden md:flex gap-4 text-sm">
                 {/* Menu List */}
-                <div>Home</div>
-                <div>About</div>
-                <div>Skills</div>
-                <div>Projects</div>
-                <div>Contact</div>
+                <div className="cursor-pointer">Home</div>
+                <div className="cursor-pointer">About</div>
+                <div className="cursor-pointer">Skills</div>
+                <div className="cursor-pointer">Projects</div>
+                <div className="cursor-pointer">Contact</div>
             </div>
             <div>
                 <button
