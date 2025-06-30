@@ -1,7 +1,9 @@
+import Nav from "./components/nav";
+
 export default function App() {
   return (
-    <div className="text-center text-2xl font-bold">
-      Manish
+    <div className="">
+      <Nav />
     </div>
   );
 }
