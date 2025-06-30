@@ -2,8 +2,8 @@ import { FiUser } from "react-icons/fi";
 
 export default function Aboutme() {
     return (
-        <>
-            <div className="bg-gray-50 py-20 p-8 flex flex-col md:flex-row mx-auto gap-4 md:px-80">
+        <div className="bg-gray-50 py-20 p-8 ">
+            <div className=" flex flex-col md:flex-row gap-4 max-w-3xl mx-auto">
                 <div className="flex flex-col gap-8">
                     <div className="flex text-3xl gap-2 font-extrabold items-center">
                         <div>
@@ -33,11 +33,11 @@ export default function Aboutme() {
                         <div>B.Tech Computer Science</div>
                     </div>
                     <div className="grid grid-cols-2 items-start">
-                        <div>Lamguage : </div>
+                        <div>Language : </div>
                         <div>English, Hindi</div>
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
