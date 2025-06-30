@@ -12,7 +12,7 @@ function ProjectCard({
     return (
         <div className="bg-white rounded-2xl border h-max border-gray-300">
             <div className="">
-                <img src={img} alt="project-thumbnail" className="rounded-2xl" />
+                <img src={img} alt="project-thumbnail" className="rounded-t-2xl " />
             </div>
             <div className="flex flex-col gap-2 p-4">
                 <div className="font-bold text-xl mt-4">{projectTitle}</div>
