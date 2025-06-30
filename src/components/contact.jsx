@@ -3,7 +3,7 @@ import { FiMail } from "react-icons/fi";
 export default function Contact() {
     return (
         <>
-            <div className="py-20 p-8 md:px-0 flex flex-col gap-4 max-w-3xl mx-auto">
+            <div id="contact" className="py-20 p-8 md:px-0 flex flex-col gap-4 max-w-3xl mx-auto">
                 <div className="text-3xl font-extrabold flex gap-2 items-center">
                     <FiMail />
                     <div>Get In Touch</div>

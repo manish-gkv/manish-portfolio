@@ -18,8 +18,8 @@ function ProjectCard({
                 <div className="font-bold text-xl mt-4">{projectTitle}</div>
                 <div className="text-gray-400 ">{projetDescription}</div>
                 <div className="flex flex-wrap gap-2 text-sm">
-                    {technologyUsed.map((tech) => {
-                        return (<div className="px-2 rounded-lg bg-gray-300">{tech}</div>)
+                    {technologyUsed.map((tech, index) => {
+                        return (<div key={index} className="px-2 rounded-lg bg-gray-300">{tech}</div>)
                     })}
                 </div>
                 <div className="flex gap-4 text-sm">
@@ -44,7 +44,7 @@ function ProjectCard({
 export default function Projects() {
     return (
         <>
-            <div className=" bg-gray-50 py-20 p-8 gap-8">
+            <div id="projects"  className=" bg-gray-50 py-20 p-8 gap-8">
                 <div className="flex text-3xl gap-2 font-extrabold items-center max-w-3xl mx-auto">
                     <FaGithub />
                     <div>Featured Projects</div>

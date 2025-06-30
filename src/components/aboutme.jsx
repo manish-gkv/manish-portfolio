@@ -2,7 +2,7 @@ import { FiUser } from "react-icons/fi";
 
 export default function Aboutme() {
     return (
-        <div className="bg-gray-50 py-20 p-8 ">
+        <div id="about" className="bg-gray-50 py-20 p-8 ">
             <div className=" flex flex-col md:flex-row gap-4 max-w-3xl mx-auto">
                 <div className="flex flex-col gap-8">
                     <div className="flex text-3xl gap-2 font-extrabold items-center">
