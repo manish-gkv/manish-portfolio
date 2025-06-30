@@ -18,23 +18,23 @@ export default function Aboutme() {
                         
                     </div>
                 </div>
-                <div className="flex flex-col col-span-1 w-full bg-white border border-gray-200 p-4 rounded-lg shadow-2xl text-black font-medium">
+                <div className="flex flex-col col-span-1 w-full px-8 bg-white border border-gray-200 p-4 rounded-lg shadow-2xl text-black font-medium">
                     <div className="mb-6">Quick Info</div>
                     <div className="grid grid-cols-2 items-start ">
                         <div >Exprience : </div>
-                        <div > 6+Months</div>
+                        <div className="text-gray-500" > 6+Months</div>
                     </div>
                     <div className="grid grid-cols-2 items-start">
                         <div >Location : </div>
-                        <div >Haridwar</div>
+                        <div className="text-gray-500" >Haridwar</div>
                     </div>
                     <div className="grid grid-cols-2 items-start">
                         <div>Education : </div>
-                        <div>B.Tech Computer Science</div>
+                        <div className="text-gray-500">B.Tech Computer Science</div>
                     </div>
                     <div className="grid grid-cols-2 items-start">
                         <div>Language : </div>
-                        <div>English, Hindi</div>
+                        <div className="text-gray-500">English, Hindi</div>
                     </div>
                 </div>
             </div>
