@@ -1,6 +1,9 @@
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
+import spmsImg from '../assets/spms-tle.png';
+import himanshuPortfolioImg from '../assets/himanshu.png';
+import telegramBotImg from '../assets/telegramBotThumbnail.png';
 function ProjectCard({
     img,
     projectTitle,
@@ -52,7 +55,7 @@ export default function Projects() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-12">
 
                     <ProjectCard 
-                        img="src/assets/himanshu.png" 
+                        img={himanshuPortfolioImg} 
                         projectTitle="Portfolio Website" 
                         projetDescription="A clean and minimalist portfolio website built with Next.js to showcase projects and skills.
                         Optimized for performance, responsiveness, and a seamless user experience."      
@@ -62,7 +65,7 @@ export default function Projects() {
                     />
 
                     <ProjectCard
-                        img="src/assets/telegramBotThumbnail.png"
+                        img={telegramBotImg}
                         projectTitle="Telegram Helper Bot"
                         projetDescription="A Telegram bot built using Node.js and the telegram-bot-sdk to automate tasks and respond to user commands." 
                         gitHubLink="https://github.com/manish-gkv/Helper-Bot"
@@ -71,7 +74,7 @@ export default function Projects() {
                     />
 
                     <ProjectCard 
-                        img="src/assets/spms-tle.png" 
+                        img={spmsImg} 
                         projectTitle="Student Progress Management System" 
                         projetDescription="A Student Progress Management System (SPMS) that tracks Codeforces account performance, including contest history and rating changes.
                         Helps monitor growth, identify weak areas, and visualize progress over time." gitHubLink="https://github.com/manish-gkv/TLE-SPMS" 
