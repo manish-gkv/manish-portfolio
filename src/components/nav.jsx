@@ -9,7 +9,7 @@ export default function Nav() {
         }
     }
     return (
-        <nav className="sticky top-0 border border-gray-200 rounded">
+        <nav className="sticky top-0 border-b border-gray-200 bg-white/75 backdrop-blur-sm">
             <motion.div
                 className='bg-black w-full h-1 origin-left '
                 style={{
