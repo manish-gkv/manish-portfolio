@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import Aboutme from "./components/aboutme";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 export default function App() {
   return (
     <div className="min-h-screen">
@@ -11,6 +12,7 @@ export default function App() {
       <Aboutme />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   );
 }
