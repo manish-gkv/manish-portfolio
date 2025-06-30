@@ -3,7 +3,7 @@ import { motion, useScroll } from 'motion/react'
 export default function Nav() {
     const {scrollYProgress} = useScroll();
     return (
-        <nav className="sticky border border-gray-200 rounded">
+        <nav className="sticky top-0 border border-gray-200 rounded">
             <motion.div
                 className='bg-black w-full h-1 origin-left '
                 style={{
