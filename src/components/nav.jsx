@@ -1,5 +1,7 @@
 import { motion, useScroll } from 'motion/react'
 
+import { RESUME_LINK } from '../cosntant';
+
 export default function Nav() {
     const {scrollYProgress} = useScroll();
     function handleClick(id){
@@ -26,12 +28,15 @@ export default function Nav() {
                     <div className="cursor-pointer" onClick={()=>handleClick('projects')}>Projects</div>
                     <div className="cursor-pointer" onClick={()=>handleClick('contact')}>Contact</div>
                 </div>
-                <div>
-                    <button
+                <div className='flex items-center'>
+                    <a
+                        href={RESUME_LINK}
+                        target='_blank'
                         className="border border-gray-200 rounded px-3 py-1 text-sm font-medium"
+                        
                     >
                         Resume
-                    </button>
+                    </a>
                 </div>
             </div>
         </nav>
