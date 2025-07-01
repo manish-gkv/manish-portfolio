@@ -84,7 +84,7 @@ export default function Projects() {
                     
                 </div>
                 <div className="flex justify-center mt-12">
-                    <a href="https://github.com/manish-gkv/" target="_blank" className="flex gap-4 p-2 rounded items-center border border-gray-200 hover:bg-gray-100"> 
+                    <a href="https://github.com/manish-gkv?tab=repositories" target="_blank" className="flex gap-4 p-2 rounded items-center border border-gray-200 hover:bg-gray-100"> 
                     <div>View All Projects</div>
                     <FaExternalLinkAlt />
                     </a>
